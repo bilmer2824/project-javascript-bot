@@ -1,0 +1,63 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  height: 90vh;
+}
+.form_telegram_bot{
+  width: 400px;
+  height: 500px;
+  background: rgba(0,0, 0,0);
+  /* border:1px solid #666; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 20px;
+  box-shadow: inset 10px 10px 20px rgba(0,0, 0,0.2),inset -10px -10px 20px rgba(0,0, 0,0.2), 10px 10px 20px rgba(255,255, 255,0.5);
+}
+.form_telegram_bot-label{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.form_telegram_bot-span{
+  font-family: serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+.form_telegram_bot-input{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  list-style: none;
+  background: rgba(0,0, 0, 0.1);
+  padding: 5px;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+}
+.form_telegram_bot-btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.form_telegram_bot-button{
+  width: 180px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background: green;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
