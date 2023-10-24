@@ -28,4 +28,4 @@ async function Telegram_Bot(bot_token, channel_id) {
   
 
 }
-Telegram_Bot('6565589283:AAE7yAJfI1Gzn0D78k_0i_wfqj-gsUsOgNU', '-1001805228205')
+Telegram_Bot('6565589283:AAE7yAJfI1Gzn0D78k_0i_wfqj-gsUsOgNU', '6170489931')
